@@ -65,7 +65,9 @@ hr{
     padding: 14px 0 6px 0;
 }
 .row { padding: 22px 0; }
-.col { padding: 11px 10px; }
+.col { 
+    padding: 11px 10px; 
+text-align: center;}
 
 article img{
     border: 1px solid #e1e1e1;
@@ -78,25 +80,19 @@ article img{
 }
 #photo img{
     display: block;
+    margin: auto;
 }
-#text{
-    padding: 8px 14px;
-    margin-top: 12px;
-    border-radius: 4px;
-    background-color: #ffffff;
-    border: 1px solid #cfcfcf;
-}
-form input, form textarea{
+form input, form textarea, #text{
     display: block;
-    padding: 8px 14px;
     margin-top: 12px;
+    width: 250px;
+    height: 30px;
     border-radius: 4px;
     background-color: #ffffff;
     border: 1px solid #cfcfcf;
 }
 .btn{
     display: table;
-    max-width: 164px;
     padding: 8px 14px;
     margin: 20px 0 0 0;
     border-radius: 4px;
@@ -159,6 +155,7 @@ h5{
         content: '';
     }
     .col{
+        text-align: initial;
         width: 33.33%;
         float: left;
     }
